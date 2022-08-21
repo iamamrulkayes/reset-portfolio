@@ -8,6 +8,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .orange-color {
     color: coral;
 }
@@ -44,4 +48,27 @@ h1 {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    width: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 30px gray;
+    border-left: 7px solid red;
+}
+
+.right {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
